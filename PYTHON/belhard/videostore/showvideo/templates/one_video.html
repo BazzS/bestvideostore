@@ -1,0 +1,9 @@
+{% extends "maintemplate.html" %}
+
+{% block title %}{{ video.title }} {% endblock %}
+
+
+
+{% block video%}
+    <iframe width="956" height="538" src="{{ video.urls }}"></iframe>
+{% endblock %}
